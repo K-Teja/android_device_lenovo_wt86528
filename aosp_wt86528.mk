@@ -17,9 +17,9 @@
 $(call inherit-product, device/lenovo/wt86528/full_wt86528.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
-PRODUCT_NAME := lineage_wt86528
+PRODUCT_NAME := aosp_wt86528
 BOARD_VENDOR := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
